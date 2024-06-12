@@ -20,12 +20,14 @@
 
 This project was developed using the following technologies and standards:
 
-- React Native
-- Typescript
-- Zustand
-- React Reanimated 2x
-- React Native Animatable
-- Websockets
+- [Expo](https://expo.dev/)
+- [React Native](https://reactnative.dev/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Zustand](https://github.com/pmndrs/zustand)
+- [React Reanimated 2x](https://github.com/software-mansion/react-native-reanimated)
+- [React Native Animatable](https://github.com/oblador/react-native-animatable)
+- [Websockets](https://github.com/robtaussig/react-use-websocket)
+- [React Native Wagmi Charts](https://github.com/coinjar/react-native-wagmi-charts)
 
 ## 💻 Project
 
