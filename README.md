@@ -73,7 +73,17 @@ If you have a simulator on your macbook or notebook you can simply `press "a"` t
 
 ## 🖥 Demo
 
-You  can see a preview [HERE](https://drive.google.com/file/d/1UnrewuY2QXkFVwzm_lNmRsWg1GW6kWj9/view?usp=sharing)
+You  can see a previews here
+
+https://github.com/Remato/crypto-trader-app/assets/8043534/9ddabb24-6e83-47b2-af98-8b3e33ce96cf
+  
+https://github.com/Remato/crypto-trader-app/assets/8043534/dab2d2f2-9c89-4eaa-9795-d8b688894ab0
+
+https://github.com/Remato/crypto-trader-app/assets/8043534/152ed701-030b-48ee-b792-49a79a2c11ee
+
+https://github.com/Remato/crypto-trader-app/assets/8043534/8d860e79-e79b-43ed-a557-3e7d587895b4
+
+https://github.com/Remato/crypto-trader-app/assets/8043534/32e3b7ca-819b-43bb-845a-c82b908a649c
 
 ---
 
