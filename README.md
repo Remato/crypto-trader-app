@@ -43,6 +43,14 @@ This application has been divided into 2 folders `backend` and `frontend`
   - Frontend
     - It is a `React Native` application built using the `Expo SDK 50`, consumes the backend API and has connections to `Binance Websockets` to update the charts in `real time`
 
+## 🏆 Challenges
+
+Perhaps the hardest part was making the Binance API available online so that the Android installation file could be made available.
+
+- Binance API cannot run on US clients, servers generally default to North American servers
+
+- I needed to change the server region to Asia so that there would be no problem with the API
+
 ## ⚙️ Execution
 
 
