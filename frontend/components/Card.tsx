@@ -7,12 +7,13 @@ import { ANIMATIONS } from "@/utils/enums"
 
 type Props = {
   title: string
+  color?: string
   description: string
   animationName?: string
   invertTextImage?: boolean
 }
 
-function Card({ title, description, animationName, invertTextImage = false }: Props) {
+function Card({ color, title, description, animationName, invertTextImage = false }: Props) {
   
   const selectAnimation = () => {
     switch (animationName) {
@@ -30,7 +31,7 @@ function Card({ title, description, animationName, invertTextImage = false }: Pr
   }
 
   return (
-    <View style={styles.wrapper}>
+    <View style={{...styles.wrapper, backgroundColor: color ?? Colors.primary}}>
       {invertTextImage ? (
         <>
           {animationName && <LottieView
@@ -72,7 +73,6 @@ const styles = StyleSheet.create({
     maxHeight: 120,
     borderRadius: 8,
     flexDirection: 'row', 
-    backgroundColor: Colors.primary,
     justifyContent: 'space-between'
   },
   textWrapper: {

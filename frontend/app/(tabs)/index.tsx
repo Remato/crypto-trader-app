@@ -55,8 +55,6 @@ const Home = () => {
             timestamp: socketBTC.k.t,
             value: parseFloat(socketBTC.k.c)
           } as Line
-
-          console.log(newLine)
           
           const bufferLines = [...lineChartOne]
           const isPositive = parseFloat(socketBTC.k.c) > bufferLines[0].value
@@ -89,8 +87,6 @@ const Home = () => {
             value: parseFloat(socketETH.k.c)
           } as Line
 
-          console.log(newLine)
-          
           const bufferLines = [...lineChartTwo]
           const isPositive = parseFloat(socketETH.k.c) > bufferLines[0].value
           
@@ -232,21 +228,23 @@ const Home = () => {
                   animationName={ANIMATIONS.STAKE}
                 />,
                 <Card 
-                  invertTextImage
-                  title={'Learn more about\nStake!'} 
-                  description={'let your cryptos work for you.'} 
-                  animationName={ANIMATIONS.WALLET}
-                />,
-                <Card 
-                  title={'Learn more about\nStake!'} 
+                  color={Colors.surface_secondary}
+                  title={'Earn with Defi be \nyour Bank!'} 
                   description={'let your cryptos work for you.'} 
                   animationName={ANIMATIONS.DEFI}
                 />,
                 <Card 
                   invertTextImage
-                  title={'Learn more about\nStake!'} 
+                  title={'Active your 2FA!'} 
+                  description={`stay safe, don't lose money.   `} 
+                  animationName={ANIMATIONS.SECURITY}
+                />,
+                <Card 
+                  invertTextImage
+                  color={Colors.surface_secondary}
+                  title={'Flexible earnings'} 
                   description={'let your cryptos work for you.'} 
-                  animationName={ANIMATIONS.DEFI}
+                  animationName={ANIMATIONS.BANK}
                 />
               ]}
             />
