@@ -81,11 +81,6 @@ or
 
 If you have a simulator on your macbook or notebook you can simply `press "a"` to simulate Android or `press "i"` to simulate iOS
 
-
-## APK INSTALLER
-
-**you can download the .APK and install on your android device [HERE](https://expo.dev/accounts/remato445/projects/frontend/builds/9126a1c0-6ea7-4adc-ae04-1004362fc79d)**
-
 ## 🖥 Demo
 
 You  can see a previews here
